@@ -1,0 +1,18 @@
+{
+  "name": "com.elrod.splineroadutils",
+  "version": "1.0.0",
+  "displayName": "Spline Road Utils",
+  "description": "A set of editor and runtime utilities to build roads with unity splines",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.splines": "2.7.2",
+    "com.unity.mathematics": "1.3.2"
+  },
+  "samples": [
+    {
+      "displayName": "Spline Road Utils",
+      "description": "Contains sample assets and utilities for the Spline Road Utils",
+      "path": "Samples~/SplineRoadUtilsSamples"
+    }
+  ]
+}
