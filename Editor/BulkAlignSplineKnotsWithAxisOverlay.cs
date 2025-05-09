@@ -92,7 +92,10 @@ namespace SplineRoadUtils.Editor
         
         public override void OnWillBeDestroyed()
         {
-            _bulkRotateButton.clicked -= OnBulkRotateButtonClicked;
+            if (_bulkRotateButton != null)
+            {
+                _bulkRotateButton.clicked -= OnBulkRotateButtonClicked;
+            }
         }
 
         private void ParseSelection()
